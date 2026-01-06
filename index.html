@@ -2,51 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Arush Kumar | Portfolio</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
-
-
 <body>
 
-<div class="layout">
+<div class="app">
 
-  <aside class="sidebar">
-    <h2 class="logo">Arush</h2>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+  <!-- LEFT PROFILE CARD -->
+  <aside class="profile-card">
+    <img src="assets/avatar.png" alt="Arush" class="avatar">
+    <h2>Arush Kumar</h2>
+    <p class="role">Full Stack Developer Intern</p>
+
+    <div class="info">
+      <p>📧 arush@example.com</p>
+      <p>📍 India</p>
+    </div>
   </aside>
 
-  <main class="content">
-    <section class="hero">
-      <h1>Hi, I'm <span>Arush Kumar</span></h1>
-      <h3>Full Stack Web Developer Intern</h3>
+  <!-- RIGHT MAIN CARD -->
+  <section class="main-card">
+
+    <header class="top-nav">
+      <a href="index.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </header>
+
+    <div class="page-content">
+      <h1>About Me</h1>
       <p>
-        I build modern, responsive and scalable web applications with
-        clean UI and real-world usability.
+        I’m a Computer Science Engineering student passionate about
+        building modern, responsive and scalable web applications.
       </p>
 
-      <div class="hero-buttons">
-        <a href="projects.html" class="btn">View Projects</a>
-        <a href="assets/resume.pdf" class="btn secondary" download>Download Resume</a>
+      <div class="what-i-do">
+        <div class="box">Web Development</div>
+        <div class="box">UI / UX Design</div>
+        <div class="box">Responsive Layouts</div>
       </div>
-    </section>
-  </main>
+    </div>
+
+  </section>
 
 </div>
 
-<script src="js/script.js"></script>
 </body>
-
 </html>

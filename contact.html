@@ -1,50 +1,68 @@
-<body>
-<div class="layout">
+<header class="top-nav">
+  <a href="index.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html" class="active">Contact</a>
+</header>
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <h2 class="logo">Arush</h2>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="about.html">About</a>
+<div class="page-content">
+  <h1>Contact Me</h1>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button>Send</button>
+  </form>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Arush Kumar | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- LEFT PROFILE CARD -->
+  <aside class="profile-card">
+    <img src="assets/avatar.png" alt="Arush" class="avatar">
+    <h2>Arush Kumar</h2>
+    <p class="role">Full Stack Developer Intern</p>
+
+    <div class="info">
+      <p>📧 arush@example.com</p>
+      <p>📍 India</p>
+    </div>
+  </aside>
+
+  <!-- RIGHT MAIN CARD -->
+  <section class="main-card">
+
+    <header class="top-nav">
+      <a href="index.html" class="active">About</a>
       <a href="projects.html">Projects</a>
       <a href="contact.html">Contact</a>
-    </nav>
-  </aside>
+    </header>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    <!-- PAGE CONTENT GOES HERE -->
-  </main>
+    <div class="page-content">
+      <h1>About Me</h1>
+      <p>
+        I’m a Computer Science Engineering student passionate about
+        building modern, responsive and scalable web applications.
+      </p>
 
-</div>
+      <div class="what-i-do">
+        <div class="box">Web Development</div>
+        <div class="box">UI / UX Design</div>
+        <div class="box">Responsive Layouts</div>
+      </div>
+    </div>
 
-<div class="layout">
-
-  <aside class="sidebar">
-    <h2 class="logo">Arush</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
-  </aside>
-
-  <main class="content">
-    <section class="section">
-      <h2>Contact Me</h2>
-
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </main>
+  </section>
 
 </div>
 
-<script src="js/script.js"></script>
 </body>
+</html>
