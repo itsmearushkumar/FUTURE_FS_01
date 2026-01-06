@@ -18,74 +18,40 @@
     <h2 class="logo">Arush</h2>
     <nav>
       <a href="#home">Home</a>
-      <a href="#about.html">About</a>
-      <a href="#skills.html">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects.html">Projects</a>
-      <a href="#contact.html">Contact</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- HERO -->
-    <section class="hero">
-  <div class="hero-content">
-    <h1>Hi, I'm <span>Arush Kumar</span></h1>
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Arush Kumar</span></h1>
+      <h3>Full Stack Web Developer Intern</h3>
+      <p>I build clean, responsive and user-focused web applications.</p>
 
-    <h2 class="role">Full Stack Web Developer Intern</h2>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="assets/resume.pdf" class="btn secondary" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
 
-    <p class="hero-text">
-      I build clean, responsive and user-focused web applications
-      with modern technologies and best practices.
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science student passionate about full-stack web development.
+      I enjoy solving real-world problems using modern web technologies and
+      continuously improving my skills.
     </p>
-
-    <div class="hero-buttons">
-      <a href="projects.html" class="btn primary">View Projects</a>
-      <a href="assets/resume.pdf" class="btn outline" download>
-        Download Resume
-      </a>
-    </div>
-  </div>
-</section>
-<section class="skills">
-  <h2>Skills</h2>
-
-  <div class="skills-grid">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Node.js</span>
-    <span>Git & GitHub</span>
-  </div>
-</section>
-
-
-
-
-  <!-- ABOUT (2 COLUMN) -->
-  <section id="about" class="section about">
-    <div class="about-left">
-      <h2>About Me</h2>
-      <p>
-        I am a Computer Science Engineering student with a strong interest in
-        full-stack web development. I enjoy turning ideas into real, usable
-        products and continuously improving my technical skills.
-      </p>
-    </div>
-
-    <div class="about-right">
-      <ul>
-        <li><strong>Education:</strong> B.Tech CSE</li>
-        <li><strong>Role:</strong> Full Stack Developer Intern</li>
-        <li><strong>Focus:</strong> Web Development & Problem Solving</li>
-      </ul>
-    </div>
   </section>
 
   <!-- SKILLS -->
   <section id="skills" class="section">
     <h2>Skills</h2>
-
     <div class="skills">
       <span>HTML</span>
       <span>CSS</span>
@@ -96,45 +62,20 @@
     </div>
   </section>
 
-  <!-- EXPERIENCE / EDUCATION -->
-  <section id="experience" class="section">
-    <h2>Experience & Education</h2>
-
-    <div class="timeline">
-      <div class="timeline-item">
-        <h4>Full Stack Web Development Intern</h4>
-        <span>Future Interns</span>
-        <p>Worked on real-world web projects and built responsive applications.</p>
-      </div>
-
-      <div class="timeline-item">
-        <h4>B.Tech in Computer Science Engineering</h4>
-        <span>Undergraduate</span>
-        <p>Studying core computer science subjects and software development.</p>
-      </div>
-    </div>
-  </section>
-
   <!-- PROJECTS -->
   <section id="projects" class="section">
     <h2>Projects</h2>
 
     <div class="projects">
       <div class="card">
-        <h3>Personal Portfolio Website</h3>
-        <p>
-          A professional portfolio website built to showcase skills, projects,
-          and experience using modern web technologies.
-        </p>
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built using HTML, CSS and JavaScript.</p>
         <a href="#">GitHub</a>
       </div>
 
       <div class="card">
-        <h3>Mini Web Application</h3>
-        <p>
-          A responsive web app focusing on clean UI, functionality, and user
-          experience.
-        </p>
+        <h3>Mini Web App</h3>
+        <p>A responsive web application with clean UI and logic.</p>
         <a href="#">GitHub</a>
       </div>
     </div>
@@ -147,7 +88,7 @@
     <form>
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message"></textarea>
+      <textarea placeholder="Your Message" rows="5"></textarea>
       <button type="submit">Send Message</button>
     </form>
   </section>
@@ -157,7 +98,7 @@
     <p>© 2026 Arush Kumar | Built with ❤️</p>
   </footer>
 
+  <!-- JS -->
   <script src="js/script.js"></script>
 </body>
-
 </html>
