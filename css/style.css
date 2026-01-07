@@ -128,8 +128,8 @@ body {
 }
 
 .section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
   background: linear-gradient(90deg, #38bdf8, #22d3ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -161,7 +161,7 @@ body {
   transform: translateY(-3px);
 }
 
-/* ================= CARDS ================= */
+/* ================= PROJECTS ================= */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -187,13 +187,7 @@ body {
 }
 
 .card p {
-  color: #cbd5f5;
   font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.card strong {
-  color: #ddd6fe; /* soft ice violet */
 }
 
 .card a {
@@ -203,9 +197,19 @@ body {
   text-decoration: none;
 }
 
-/* ================= EXPERIENCE TITLES ================= */
-#experience .card h3 {
-  color: #c7d2fe; /* soft lavender */
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #a5b4fc; /* soft indigo */
+}
+
+.card p {
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+.card strong {
+  color: #38bdf8;
 }
 
 /* ================= CONTACT ================= */
@@ -242,7 +246,22 @@ footer {
   color: #64748b;
 }
 
-/* ================= ABOUT 2 COLUMN ================= */
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .section {
+    padding: 70px 8%;
+  }
+}
+/* ===== ABOUT 2 COLUMN ===== */
 .about {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -260,7 +279,7 @@ footer {
   color: #94a3b8;
 }
 
-/* ================= TIMELINE ================= */
+/* ===== TIMELINE ===== */
 .timeline {
   margin-top: 30px;
   display: grid;
@@ -279,22 +298,14 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ================= RESPONSIVE ================= */
+/* ===== RESPONSIVE FIX ===== */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .hero h1 {
-    font-size: 2.4rem;
-  }
-
-  .section {
-    padding: 70px 8%;
-  }
-
   .about {
     grid-template-columns: 1fr;
   }
+}
+
+/* Experience role title color */
+#experience .card h3 {
+  color:  #a5b4fc;
 }
