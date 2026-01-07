@@ -8,10 +8,14 @@
 }
 
 body {
-  background: #020617;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(56,189,248,0.15), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(34,211,238,0.12), transparent 40%),
+    #020617;
   color: #e5e7eb;
   scroll-behavior: smooth;
 }
+
 
 /* ================= NAVBAR ================= */
 .navbar {
@@ -62,10 +66,8 @@ body {
   display: flex;
   align-items: center;
   padding: 0 10%;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(56,189,248,0.15), transparent 40%),
-    radial-gradient(circle at 80% 80%, rgba(34,211,238,0.12), transparent 40%);
 }
+
 
 .hero-content {
   max-width: 700px;
