@@ -331,3 +331,13 @@ footer {
 #projects .card p {
   color: #e5e7eb;
 }
+
+/* FORCE EXPERIENCE CARD TEXT COLOR */
+#experience .card p,
+#experience .card span {
+  color: #e5e7eb;
+}
+
+#experience .card strong {
+  color: #e5e7eb;
+}
