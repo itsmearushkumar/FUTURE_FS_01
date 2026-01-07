@@ -320,6 +320,14 @@ footer {
   color:  #a5b4fc;
 }
 
-.card p {
+#experience.card p {
+  color: #e5e7eb;
+}
+
+#education .card p {
+  color: #e5e7eb;
+}
+
+#projects .card p {
   color: #e5e7eb;
 }
