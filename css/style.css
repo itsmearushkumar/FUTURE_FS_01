@@ -194,6 +194,17 @@ body {
   text-decoration: none;
 }
 
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.card p {
+  color: #cbd5f5;
+  line-height: 1.6;
+}
+
+
 /* ================= CONTACT ================= */
 form {
   max-width: 500px;
