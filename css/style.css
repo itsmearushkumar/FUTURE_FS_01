@@ -185,8 +185,8 @@ body {
   box-shadow: 0 15px 40px rgba(0,0,0,0.4);
 }
 
-.section#experience .card h3 {
-  color: #7dd3fc;
+.card h3 {
+  color: #ffffff;
 }
 
 
@@ -307,4 +307,9 @@ footer {
   .about {
     grid-template-columns: 1fr;
   }
+}
+
+/* Experience role title color */
+#experience .card h3 {
+  color: #7dd3fc;
 }
