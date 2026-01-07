@@ -206,6 +206,10 @@ body {
   line-height: 1.6;
 }
 
+.card strong {
+  color: #38bdf8;
+}
+
 
 /* ================= CONTACT ================= */
 form {
