@@ -342,14 +342,6 @@ footer {
   color: #e5e7eb;
 }
 
-/* Experience company names – match section heading gradient */
-#experience .card strong {
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 600;
-}
-
 /* Force gradient color for company names in Experience */
 #experience .card p strong {
   background: linear-gradient(90deg, #38bdf8, #22d3ee);
