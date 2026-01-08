@@ -332,6 +332,10 @@ footer {
   color: #e5e7eb;
 }
 
+#documents .card p {
+  color: #e5e7eb;
+}
+
 /* FORCE EXPERIENCE CARD TEXT COLOR */
 #experience .card p,
 #experience .card span {
