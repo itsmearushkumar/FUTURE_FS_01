@@ -338,11 +338,7 @@ footer {
   color: #e5e7eb;
 }
 
-#experience .card strong {
-  color: #e5e7eb;
-}
-
-/* Force gradient color for company names in Experience */
+/* === EXPERIENCE COMPANY NAME GRADIENT (FINAL FIX) === */
 #experience .card p strong {
   background: linear-gradient(90deg, #38bdf8, #22d3ee);
   -webkit-background-clip: text;
@@ -350,3 +346,15 @@ footer {
   color: transparent;
   font-weight: 600;
 }
+
+/* Safety: in case <b> is used instead of <strong> */
+#experience .card p b {
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 600;
+}
+
+
+
