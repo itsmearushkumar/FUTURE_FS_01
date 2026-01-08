@@ -356,5 +356,7 @@ footer {
   font-weight: 600;
 }
 
-
-
+/* Documents card title color – same as Projects */
+#documents .card h3 {
+  color: #a5b4fc;
+}
