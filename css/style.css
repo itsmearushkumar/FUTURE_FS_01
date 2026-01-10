@@ -399,3 +399,31 @@ footer {
 .phone-text {
   font-size: 0.95rem;
 }
+
+/* ===== HERO VISUAL (RIGHT SIDE) ===== */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-visual {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-visual img {
+  width: 100%;
+  max-width: 480px;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 40px rgba(56,189,248,0.25));
+}
+
+/* Hide visual on small screens */
+@media (max-width: 900px) {
+  .hero-visual {
+    display: none;
+  }
+}
