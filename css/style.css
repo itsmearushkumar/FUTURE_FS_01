@@ -401,27 +401,3 @@ footer {
 .phone-text {
   font-size: 0.95rem;
 }
-
-/* ===== HERO VISUAL (RIGHT SIDE IMAGE) ===== */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-}
-
-.hero-visual {
-  width: 45%;
-  height: 420px;
-  background-image: url("../assets/hero-mesh.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
-  opacity: 0.9;
-}
-
-/* Hide image on mobile */
-@media (max-width: 900px) {
-  .hero-visual {
-    display: none;
-  }
-}
