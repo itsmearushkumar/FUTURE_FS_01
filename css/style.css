@@ -65,38 +65,21 @@ body {
   display: flex;
   align-items: center;
   padding: 0 10%;
+  position: relative;
+
+  /* Background Image */
+  background:
+    linear-gradient(
+      rgba(2, 6, 23, 0.85),
+      rgba(2, 6, 23, 0.85)
+    ),
+    url("../assets/hero-mesh.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.hero-content {
-  max-width: 700px;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-
-.hero h1 span {
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hero h3 {
-  margin: 15px 0;
-  font-weight: 400;
-  color: #94a3b8;
-}
-
-.hero p {
-  max-width: 520px;
-  margin-top: 10px;
-  color: #cbd5f5;
-}
-
-.hero-buttons {
-  margin-top: 35px;
-}
 
 /* ================= BUTTONS ================= */
 .btn {
