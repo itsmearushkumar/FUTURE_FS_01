@@ -34,7 +34,7 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/itsmearushkumar/FUTURE_FS_01.git
 2. Navigate to the project directory:
-      bash
+   ```bash
    cd FUTURE_FS_01
 3. Open the index.html file in any modern web browser.
 
